@@ -1,5 +1,5 @@
 # base class
-class Index:
+class Base:
     def __init__(self):
         self._count = 0
 
@@ -10,7 +10,7 @@ class Index:
         self._count += 1
 
 # derived class
-class NewIndex(Index):
+class Derived(Base):
     def __init__(self):
         super().__init__()
 
@@ -21,6 +21,8 @@ i = NewIndex()
 i.incr()
 i.incr()
 i.incr()
+i.display()
+i.decr()
 i.display()
 i.decr()
 i.display()
