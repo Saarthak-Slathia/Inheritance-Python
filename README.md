@@ -1,7 +1,7 @@
 # Inheritance-Python
 This is a sample for the inheritance property in python.
 #
-Check it out ! -->
+Check it out -->
 
     # base class
     class Base:
